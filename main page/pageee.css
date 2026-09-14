@@ -341,7 +341,14 @@ body {
 
 /* Temporary CSS image fallbacks; replace with real product image files when available. */
 .best-sellers [class^="product-image"] img {
-    display: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.best-sellers [class^="product-image"]::after {
+    content: none !important;
 }
 
 .best-sellers [class^="product-image"]::after {
