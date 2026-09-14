@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
             Object.assign(toast.style, {
                 position: "fixed",
                 right: "24px",
-                bottom: "24px",
+                bottom: "25px",
                 zIndex: "1000",
                 padding: "13px 18px",
                 borderRadius: "8px",
